@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spending_data>
+  <meta>
+    <start_date>01/09/2016</start_date>
+    <end_date>01/10/2016</end_date>
+    <income>
+      <total>3000.23</total>
+    </income>
+    <categories>
+      <category name="Food">
+        <budget>1000</budget>
+        <spent>0</spent>
+        <icon>cutlery</icon>
+        <remaining>1000</remaining>
+      </category>
+      <category name="Games">
+        <budget>1000</budget>
+        <spent>12.43</spent>
+        <icon>gamepad</icon>
+        <remaining>1000</remaining>
+      </category>
+      <category name="Drink">
+        <budget>1000</budget>
+        <spent>0</spent>
+        <icon>beer</icon>
+        <remaining>1000</remaining>
+      </category>
+      <category name="Cheese">
+        <budget>1234</budget>
+        <spent>0</spent>
+        <icon>gift</icon>
+        <remaining>1234</remaining>
+      </category>
+      <category name="Entertainment">
+        <budget>200</budget>
+        <spent>0</spent>
+        <icon>tv</icon>
+        <remaining>200</remaining>
+      </category>
+      <category name="Gifts">
+        <budget>300</budget>
+        <spent>0</spent>
+        <icon>gift</icon>
+        <remaining>300</remaining>
+      </category>
+      <category name="DVDs">
+        <budget>1200</budget>
+        <spent>0</spent>
+        <icon>gift</icon>
+        <remaining>1200</remaining>
+      </category>
+      <category name="Fax">
+        <budget>1234</budget>
+        <spent>0</spent>
+        <icon>fax</icon>
+        <remaining>1234</remaining>
+      </category>
+    </categories>
+  </meta>
+  <spending>
+    <item>
+      <spender>Person</spender>
+      <category>Games</category>
+      <date>03/09/2016</date>
+      <amount>12.43</amount>
+      <description>some super awesome game</description>
+    </item>
+  </spending>
+</spending_data>

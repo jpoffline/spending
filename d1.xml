@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wishlist>
+  <items>
+    <item>
+      <name>Iona jeans</name>
+      <date_added>04/09/2016</date_added>
+      <approx_cost>50.00</approx_cost>
+    </item>
+    <item>
+      <name>ds</name>
+      <date_added>07/09/2016</date_added>
+      <approx_cost>12</approx_cost>
+    </item>
+  </items>
+  <shopping_list>
+    <item id="1" category="Fruit and veg">Apples</item>
+    
+    <item id="3" category="Toiletries">Bog roll</item>
+    <item id="house" category="Toiletries">Bog roll</item>
+    <item id="4" category="Frozen">frozen sweetcorn</item>
+  <item id="11092016195957" category="DVD">Lion King 3</item></shopping_list>
+</wishlist>

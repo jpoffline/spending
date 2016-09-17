@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wishlist>
+  <shopping_list>
+    <categories>
+      <cat category="DVDs">
+        <item id="20160917100152" status="got">Home alone</item>
+        <item id="20160917100155" status="new">Die hard</item>
+      </cat>
+      <cat category="Music">
+
+        <item id="20160917100505" status="new">things2</item>
+        <item id="20160917100519" status="new">things2</item>
+      </cat>
+      <cat category="My category 3">
+        <item id="20160917100505" status="got">things23</item>
+        <item id="20160917100519" status="new">things23</item>
+      </cat>
+    </categories>
+  </shopping_list>
+</wishlist>

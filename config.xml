@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <current_period>
+     <file>data/spending_data.xml</file>
+   </current_period>
+   <wishlist>
+     <file>data/wishlist.xml</file>
+   </wishlist>
+   <shopping_list>
+     <file>data/wishlist.xml</file>
+   </shopping_list>
+
+ </config>

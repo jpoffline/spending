@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spending_data>
+  <meta>
+    <start_date>01/09/2016</start_date>
+    <end_date>01/10/2016</end_date>
+    <income>
+      <total>3000.23</total>
+    </income>
+    <categories>
+      <category name="Food">
+        <budget>1000</budget>
+        <spent>1240210.76</spent>
+        <icon>cutlery</icon>
+      </category>
+      <category name="Games">
+        <budget>1000</budget>
+        <spent>1354</spent>
+        <icon>gamepad</icon>
+      </category>
+      <category name="Drink">
+        <budget>1000</budget>
+        <spent>456</spent>
+        <icon>beer</icon>
+      </category>
+      <category name="Cheese">
+        <budget>1234</budget>
+        <spent>1231</spent>
+        <icon>gift</icon>
+      </category>
+      <category name="Entertainment">
+        <budget>200</budget>
+        <spent>10</spent>
+        <icon>tv</icon>
+      </category>
+      <category name="Gifts">
+        <budget>300</budget>
+        <spent>0</spent>
+        <icon>gift</icon>
+      </category>
+      <category name="DVDs">
+        <budget>1200</budget>
+        <spent>12.43</spent>
+        <icon>gift</icon>
+      </category>
+    <category name="Fax">
+      <budget>1234</budget>
+      <spent>0</spent>
+      <icon>fax</icon>
+    </category>
+  </categories>
+  </meta>
+  <spending>
+    <item id="1">
+      <category>Food</category>
+      <description>Some super awesome food</description>
+      <amount>100.00</amount>
+      <date>02/09/2016</date>
+      <spender>Jonathan</spender>
+    </item>
+    <item id="3">
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>30/08/2016</date>
+      <amount>12</amount>
+      <description>the is some more food</description>
+    </item>
+    <item id="3">
+      <spender>Person</spender>
+      <category>Games</category>
+      <date>30/08/2016</date>
+      <amount>123</amount>
+      <description>dddd</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>30/08/2016</date>
+      <amount>2000</amount>
+      <description>dds</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>31/08/2016</date>
+      <amount>12.32</amount>
+      <description>some food</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>on</category>
+      <date>31/08/2016</date>
+      <amount>12345</amount>
+      <description>fds</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>31/08/2016</date>
+      <amount>2131</amount>
+      <description>ds</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Drink</category>
+      <date>31/08/2016</date>
+      <amount>456</amount>
+      <description>ds</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>31/08/2016</date>
+      <amount>1234567</amount>
+      <description>fds</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Games</category>
+      <date>01/09/2016</date>
+      <amount>1231</amount>
+      <description>ssa</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Cheese</category>
+      <date>01/09/2016</date>
+      <amount>1231</amount>
+      <description>lots of cheesee</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Entertainment</category>
+      <date>01/09/2016</date>
+      <amount>10</amount>
+      <description>cinema</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>01/09/2016</date>
+      <amount>12.45</amount>
+      <description>foods</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>03/09/2016</date>
+      <amount>132.0</amount>
+      <description>some foods</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>DVDs</category>
+      <date>03/09/2016</date>
+      <amount>12.43</amount>
+      <description>things</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>03/09/2016</date>
+      <amount>12.43</amount>
+      <description>ghdjk</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Food</category>
+      <date>03/09/2016</date>
+      <amount>1232.76</amount>
+      <description>thrjghkd</description>
+    </item>
+  </spending>
+</spending_data>

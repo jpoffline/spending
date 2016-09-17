@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spending_data>
+  <meta>
+    <start_date>01 09 2016</start_date>
+    <end_date>01 10 2016</end_date>
+    <income>
+      <total>3000</total>
+    </income>
+  </meta>
+  <spending>
+    <item id="1">
+      <category>Food</category>
+      <description>Some super awesome food</description>
+      <amount>100.00</amount>
+      <date>02/09/2016</date>
+      <spender>Jonathan</spender>
+    </item>
+    <item id="2">
+      <category>Food</category>
+      <description>Some more super awesome food</description>
+      <amount>12.12</amount>
+      <date>03/09/2016</date>
+      <spender>Iona</spender>
+    </item>
+    <item id="3" message="Testing">
+      <spender>Iona</spender>
+      <category>Stuff</category>
+      <date>04/09/2016</date>
+      <amount>115</amount>
+      <description>some awesome new stuff</description>
+    </item>
+  </spending>
+</spending_data>
