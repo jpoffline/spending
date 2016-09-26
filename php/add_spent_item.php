@@ -9,12 +9,11 @@
     foreach($xmldata->meta->categories->children() as $cat){
       if($cat['name'] == (string)$category2){
         $cat->spent = $cat->spent + floatval($amount2);
+        break;
       }
     }
 
     $entry = $xmldata->spending->addChild('item');{}
-    //$entry->addAttribute('id', '3');
-  //  $entry->addAttribute('message', 'Testing');
     $entry_data = $entry->addChild('spender',$name2);
     $entry_data = $entry->addChild('category',$category2);
     $entry_data = $entry->addChild('date',$date2);

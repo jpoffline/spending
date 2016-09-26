@@ -15,7 +15,7 @@
       </category>
       <category name="Games">
         <budget>1000</budget>
-        <spent>12.43</spent>
+        <spent>110.32</spent>
         <icon>gamepad</icon>
         <remaining>1000</remaining>
       </category>
@@ -27,7 +27,7 @@
       </category>
       <category name="Cheese">
         <budget>1234</budget>
-        <spent>0</spent>
+        <spent>24.43</spent>
         <icon>gift</icon>
         <remaining>1234</remaining>
       </category>
@@ -51,7 +51,7 @@
       </category>
       <category name="Fax">
         <budget>1234</budget>
-        <spent>0</spent>
+        <spent>98.21</spent>
         <icon>fax</icon>
         <remaining>1234</remaining>
       </category>
@@ -64,6 +64,34 @@
       <date>03/09/2016</date>
       <amount>12.43</amount>
       <description>some super awesome game</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Cheese</category>
+      <date>18/09/2016</date>
+      <amount>12.4</amount>
+      <description>gorgonzola</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Games</category>
+      <date>18/09/2016</date>
+      <amount>98.32</amount>
+      <description>CoD4</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Cheese</category>
+      <date>18/09/2016</date>
+      <amount>12.43</amount>
+      <description>cheeeeese</description>
+    </item>
+    <item>
+      <spender>Person</spender>
+      <category>Fax</category>
+      <date>26/09/2016</date>
+      <amount>98.21</amount>
+      <description>sent to china</description>
     </item>
   </spending>
 </spending_data>

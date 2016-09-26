@@ -31,7 +31,7 @@
     <?php
       echo gen_wishlist_table($xml_wishlist_file);
     ?>
-    
+
 
     <?php
       include('common_footer.php');

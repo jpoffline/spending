@@ -21,10 +21,23 @@ function read_new_wishlist_item(xml_file_name){
 }
 
 
+
+
 function read_new_shopping_list_item(xml_file_name){
   var cat = document.getElementById("shoppinglist_desc").value;
   var itm = document.getElementById("shoppinglist_item").value;
+
+
+
+  if(cat == ''){
+
+    cat = $(".btn_shp_cat").text();
+    cat = cat.slice(0, -1);
+
+  }
+
   var ds = 'cat=' + cat + '&itm=' + itm + '&xmlfile=' + xml_file_name;
+
   if (cat == '' || itm == '') {
     alert("Please Fill All Fields");
   } else {
@@ -77,6 +90,24 @@ function clear_bought_shopping_list_items(xml_file_name){
   });
 }
 
+function bring_existing_budget_forwards(xml_file_name){
+  var start = document.getElementById("new_budget_start").value;
+  var end = document.getElementById("new_budget_end").value;
+  var income = document.getElementById("new_budget_income").value;
+
+  var ds = 'start='+start+'&end='+end+'&income='+income+'&xml=' + xml_file_name;
+  //alert(start + end + income);
+  $.ajax({
+    type: "POST",
+    url: "bring_forward_existing_file.php",
+    data: ds,
+    cache: false,
+    success: function(html) {
+        window.location.reload(true);
+    }
+  });
+}
+
 
 function read_user_spent_item_input(xml_file_name) {
 
@@ -116,6 +147,12 @@ function read_user_spent_item_input(xml_file_name) {
 
 
 jQuery(document).ready(function($) {
+
+  $(".dropdown-menu li a").click(function(){
+    $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+    $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+  });
+
     $(".shopping_list-clickable-row").click(function() {
 
         var id = $(this).data("id");

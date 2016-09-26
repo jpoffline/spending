@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spending_data>
   <meta>
-    <start_date>01/09/2016</start_date>
-    <end_date>01/10/2016</end_date>
+    <start_date>20/09/2016</start_date>
+    <end_date>20/10/2016</end_date>
     <income>
-      <total>3000.23</total>
+      <total>1789</total>
     </income>
     <categories>
       <category name="Food">
@@ -57,5 +57,5 @@
       </category>
     </categories>
   </meta>
-  <spending/>
-</spending_data>
+  
+<spending/></spending_data>

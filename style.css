@@ -23,7 +23,7 @@
   color: red;
 }
 
-
+/*
 .button {
   background-color: #eee;
   color: black;
@@ -34,31 +34,33 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 8px;
 }
 
 .button:hover {
-    background-color: #D1D3D4; /* Green */
+    background-color: #D1D3D4; 
     color: black;
 }
 
-
+*/
 
 
 
 
 
 label.radio {
-  width: 200px;
+  width: 150px;
+  padding-right: 2px;
+
   border-radius: 3px;
   border: 1px solid #D1D3D4
 }
 
 input.radio {
-  font-size: 12px;
+  font-size: 8px;
 }
 
 /* hide input */
@@ -73,7 +75,7 @@ input.radio:empty ~ label {
 	float: left;
 	line-height: 1.5em;
 
-	text-indent: 3.25em;
+	text-indent: 1.5em;
 	margin-top: 0em;
 	cursor: pointer;
 	-webkit-user-select: none;

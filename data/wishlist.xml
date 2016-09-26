@@ -11,22 +11,26 @@
       <date_added>07/09/2016</date_added>
       <approx_cost>12</approx_cost>
     </item>
+    <item>
+      <name>Things</name>
+      <date_added>18/09/2016</date_added>
+      <approx_cost>20.00</approx_cost>
+    </item>
   </items>
   <shopping_list>
     <categories>
       <cat category="DVD">
-        <item id="20160917104753" status="got" display="no">a new item</item>
-        <item id="20160917104759" status="got" display="yes">things</item>
-        <item id="20160917105003" status="got" display="no">Home alone $</item>
-        <item id="20160917105149" status="got" display="yes">new film</item>
-        <item id="20160917105208" status="got" display="yes">another new film</item>
-        <item id="20160917105412" status="new" display="yes">ds</item>
+        <item id="20160918165602" status="new" display="yes">movie 1</item>
+        <item id="20160925172919" status="new" display="yes">a record</item>
+        <item id="20160925172926" status="new" display="yes">another new film</item>
       </cat>
-      <cat category="Food">
-        <item id="20160917104803" status="got" display="no">apples</item>
+      <cat category="Fruit">
+        <item id="20160918165612" status="got" display="no">Apples</item>
+        <item id="20160918165620" status="new" display="yes">Grapes</item>
+        <item id="20160925172933" status="new" display="yes">Apples</item>
       </cat>
-      <cat category="A new cat">
-        <item id="20160917105507" status="new" display="yes">fhjdk</item>
+      <cat category="Frozen">
+        <item id="20160925172939" status="new" display="yes">peas</item>
       </cat>
     </categories>
   </shopping_list>

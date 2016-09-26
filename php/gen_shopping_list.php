@@ -1,6 +1,9 @@
 
 <?php
 
+
+
+
   function gen_shopping_list($xml_file){
 
     $xml = simplexml_load_file($xml_file);
@@ -35,6 +38,16 @@
 
   }
 
+
+  function gen_shopping_list_categories($xml_file){
+    $xml = simplexml_load_file($xml_file);
+    $catlist = "";
+    foreach($xml->shopping_list->categories->children() as $item_cat){
+      $cat = $item_cat["category"];
+      $catlist .= "<li><a href=\"#\" data-value=\"".$cat."\">".$cat."</a></li>";
+    }
+    return $catlist;
+  }
 
   function gen_shopping_list_group_cats($xml_file){
 
